@@ -1,0 +1,12 @@
+.MODEL SMALL
+.STACK 100H 
+.DATA
+  A DB 5 
+  B DB 10
+  S DB ?
+
+.CODE
+  MOV AL,A ;AL=A
+  ADD AL,B ;AL=AL+B
+  MOV S,AL ;S=AL
+ END
