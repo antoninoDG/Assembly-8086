@@ -1,8 +1,8 @@
 .MODEL SMALL
 .STACK 100H 
 .DATA
-  A DB 5 
-  B DB 10
+  A DB 3 
+  B DB 2
   S DB ?
 
 .CODE
